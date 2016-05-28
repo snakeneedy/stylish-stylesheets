@@ -1,0 +1,31 @@
+/*
+ * Version: 1.1.1
+ * Author: snakeneedy
+ * Browser: Chrome or Firefox in Windows 8.1
+ * Extension: Stylish
+ * Description: Pin the position of left sidebar when scrolling down the screen.
+ * For Chrome users: You need to use "Import" to apply this stylesheet.
+ */
+
+@-moz-document domain("facebook.com") {
+
+@media screen and (min-width: 1025px) {
+  #globalContainer {
+    width: 1025px !important; 
+  }
+  div#contentArea {
+    padding-left: 10px !important;
+  }
+  #leftCol {
+    overflow: hidden;
+    position: fixed;
+    height: 90%;
+    margin: 0px;
+    padding-left: 19px !important;
+  }
+  #leftCol:hover {
+    overflow: auto;
+  }
+}
+
+}
