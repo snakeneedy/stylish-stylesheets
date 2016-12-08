@@ -1,0 +1,5 @@
+@-moz-document domain("lol.moa.tw") {
+  #content-footer {
+    display: none;
+  }
+}

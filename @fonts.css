@@ -1,0 +1,33 @@
+@-moz-document regexp("^((?!docs\\.google\\.com|www\\.draw\\.io|app\\.simplenote\\.com).)*$") {
+  :focus, :link, :visited, address, b, big, blockquote, body, br:before, button, caption, center, cite, code, col, colgroup, dd, del, dir, div, dl, dt, em, fieldset, form, frame, frameset, h1, h2, h3, h4, h5, h6, head, hr, html, i, input, ins, kbd, li, menu, noframes, ol ol, ol ul, ol, p, pre, s, samp, select, small, strike, strong, sub, sup, table, tbody, td, textarea, tfoot, th, thead, tr, tt, u, ul ol, ul ul, ul, var {
+    font-family: "Ubuntu Mono", "consolas",
+    "Noto Sans CJK TC",
+    "微軟正黑體", "Microsoft JhengHei",
+    "標楷體", "Lucida Bright", "DFKai-SB", "sans-serif", "Arial",
+    "FontAwesome", "Glyphicons Halflings", "ProximaNova-Regular", "nova", "eg-header-icomoon", "Symbol", "Ionicons",
+    "Helvetica Neue", "Helvetica", "Open Sans",
+    "hackpad", "tk-sc-icons", "icon", "entypo", "WebHostingHub-Glyphs", "wizIcons"
+    ;
+  }
+
+  .ace-feature-bigtitle > .ace-editor > div:first-child, /* paper.dropbox */
+  window, page, dialog, wizard, prefwindow, /* Firefox */
+  #facebook ._-kb div, #facebook ._5s6c._5s6c, ._5s6c, /* Facebook */
+  .gsfi, .lst,
+  #messages-input-container #message-input,
+  .ace_editor *,
+  .bbs-content,
+  #Content, #Content .Content-post,
+  .post *,
+  .articlcontent .article p {
+    font-family: "Ubuntu Mono", "consolas",
+    "Noto Sans CJK TC",
+    "微軟正黑體", "Microsoft JhengHei",
+    "標楷體", "Lucida Bright", "DFKai-SB", "sans-serif", "Arial",
+    "FontAwesome", "Glyphicons Halflings", "ProximaNova-Regular", "nova", "eg-header-icomoon", "Symbol", "Ionicons",
+    "Helvetica Neue", "Helvetica", "Open Sans",
+    "hackpad", "tk-sc-icons", "icon", "entypo", "WebHostingHub-Glyphs", "wizIcons"
+    !important;
+  }
+  /* NCKU lib.: "Lucida Bright" */
+}

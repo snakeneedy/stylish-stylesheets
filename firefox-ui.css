@@ -1,0 +1,7 @@
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul");
+
+/* Always show "List all tabs" button */
+#tabbrowser-tabs ~ #alltabs-button {
+  visibility: visible !important;
+}
+

@@ -1,31 +1,48 @@
-/*
- * Version: 1.1.1
- * Author: snakeneedy
- * Browser: Chrome or Firefox in Windows 8.1
- * Extension: Stylish
- * Description: Pin the position of left sidebar when scrolling down the screen.
- * For Chrome users: You need to use "Import" to apply this stylesheet.
- */
-
 @-moz-document domain("facebook.com") {
+  /*
+   * Version: 1.2.0
+   * Author: snakeneedy
+   * Browser: Chrome or Firefox
+   * Extension: Stylish
+   * Description: There are multiple features below. Comment or delete which you do not like.
+   * For Chrome users: You need to use "Import" to apply this stylesheet.
+   */
 
-@media screen and (min-width: 1025px) {
-  #globalContainer {
-    width: 1025px !important; 
+  /* Pin the position of left sidebar when scrolling down the screen. */
+  @media screen and (min-width: 1025px) {
+    #globalContainer {
+      width: 1025px !important;
+    }
+    div#contentArea {
+      padding-left: 10px !important;
+    }
+    #leftCol {
+      overflow: hidden;
+      position: fixed;
+      height: 90%;
+      margin: 0px;
+      padding-left: 19px !important;
+    }
+    #leftCol:hover {
+      overflow: auto;
+    }
   }
-  div#contentArea {
-    padding-left: 10px !important;
-  }
-  #leftCol {
-    overflow: hidden;
-    position: fixed;
-    height: 90%;
-    margin: 0px;
-    padding-left: 19px !important;
-  }
-  #leftCol:hover {
-    overflow: auto;
-  }
-}
 
+  /* Hide the recommended page */
+  #pagelet_ego_pane,
+  #pagelet_growth_expanding_cta {
+    display: none;
+  }
+
+  /* Hide the no-login layer */
+  /* bug: This also hide the top area in the group page
+  #headerArea {
+    display: none;
+  }
+   */
+
+  /* Default the color of the chat bar */
+  .fbNubFlyoutTitlebar {
+    background-color: rgb(59,89,152) !important;
+  }
 }

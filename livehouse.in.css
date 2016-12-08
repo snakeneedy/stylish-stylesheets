@@ -1,0 +1,7 @@
+@-moz-document domain("livehouse.in") {
+  /* Hide the notification layout which covers the screen */
+  .embed-part .block {
+    display: none !important;
+  }
+}
+
