@@ -1,0 +1,35 @@
+@-moz-document regexp("file:///.*\\.md") {
+  p > code,
+  li > code {
+    font-size: 85%;
+    color: #B94A48;
+    background-color: #FCF3F2;
+    border: solid 1px #E2DADA;
+    border-radius: 3px;
+  }
+  pre code {}
+  rt {
+    font-size: small;
+  }
+}
+
+@-moz-document url-prefix("http://127.0.0.1") {
+  code {
+    font-size: 85%;
+    color: #B94A48;
+    background-color: #FCF3F2;
+    border: solid 1px #E2DADA;
+    border-radius: 3px;
+  }
+  rt {
+    font-size: small;
+  }
+  /* Plugin plasticboy/vim-markdown */
+  .markdown-content pre code {
+    font-size: 100%;
+    color: #333333;
+    border: 0;
+    background-color: transparent;
+  }
+}
+
