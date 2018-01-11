@@ -1,0 +1,7 @@
+@-moz-document domain("myself-bbs.com") {
+/* Hide full-page cover when using ad-block extensions */
+#actiontwo {
+  display: none;
+}
+}
+
