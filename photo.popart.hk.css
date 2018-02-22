@@ -1,0 +1,12 @@
+/* 攝影日報 PHOTONEWS */
+
+#adblock_screen,
+.deadblocker-header-bar,
+#deadblocker_dialog {
+  width: 0px !important;
+  height: 0px !important;
+  display: none !important;
+  border: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
