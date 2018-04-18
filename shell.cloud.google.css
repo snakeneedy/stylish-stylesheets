@@ -1,0 +1,9 @@
+@-moz-document domain("ssh.cloud.google.com") {
+@font-face {
+  font-family: 'Source Code Pro Powerline FontAwesome';
+  src: local('Source Code Pro Powerline FontAwesome'), url('https://raw.githubusercontent.com/gabrielelana/awesome-terminal-fonts/patching-strategy/patched/SourceCodePro%2BPowerline%2BAwesome%2BRegular.ttf') format('truetype');
+}
+x-screen > * {
+  font-family: 'Source Code Pro Powerline FontAwesome', 'Ubuntu', 'Arial' !important;
+}
+}
