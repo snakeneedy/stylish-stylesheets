@@ -1,9 +1,19 @@
-@-moz-document domain("ssh.cloud.google.com") {
+@-moz-document domain("ssh.cloud.google.com"), domain("console.cloud.google.com") {
 @font-face {
   font-family: 'Source Code Pro Powerline FontAwesome';
   src: local('Source Code Pro Powerline FontAwesome'), url('https://raw.githubusercontent.com/gabrielelana/awesome-terminal-fonts/patching-strategy/patched/SourceCodePro%2BPowerline%2BAwesome%2BRegular.ttf') format('truetype');
 }
 x-screen > * {
   font-family: 'Source Code Pro Powerline FontAwesome', 'Ubuntu', 'Arial' !important;
+}
+}
+
+@-moz-document regexp("https?://cloud\\.google\\.com.*doc.*") {
+code {
+  font-size: 85%;
+  color: #B94A48;
+  background-color: #FCF3F2;
+  border: solid 1px #E2DADA;
+  border-radius: 3px;
 }
 }
