@@ -11,3 +11,16 @@ pre {
   border-radius: 3px;
 }
 }
+
+@-moz-document domain("docs.python.org") {
+code {
+  font-size: 85%;
+  color: #B94A48;
+  background-color: #FCF3F2;
+  border: solid 1px #E2DADA;
+  border-radius: 3px;
+}
+a > code {
+  text-decoration: underline;
+}
+}
